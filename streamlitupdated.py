@@ -31,10 +31,8 @@ def get_competitor_data():
 # Streamlit Dashboard
 st.title("SportsRadar Competitor Dashboard")
 
-
 # Add Image below the title with specific width (400px), height will adjust automatically
-st.image("C:/Users/neeth/OneDrive/Desktop/Sportsradar.jpg", width=400)
-
+st.image("C:\\Users\\neeth\\Downloads\\Sportsradar.jpg", width=400)
 
 # Get the data
 competitor_data = get_competitor_data()
